@@ -13,7 +13,7 @@ public class Lab1Application implements CommandLineRunner {
         System.out.println("End of main");
     }
     @Override
-    public void run(String... args) throws Exception{
+    public void run(String... args) {
         System.out.println("Hello from Spring Boot");
     }
 
