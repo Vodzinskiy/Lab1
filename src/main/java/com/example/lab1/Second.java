@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Order(3)
 public class Second implements CommandLineRunner {
     @Override
-    public void run(String... args) throws Exception{
+    public void run(String... args) {
         System.out.println("Second");
     }
 }
