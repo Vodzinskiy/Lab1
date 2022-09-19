@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/styles/styles.css">
+    <link rel="stylesheet" th:href="@{/styles/styles.css}">
     <title>Information about Roman Vodzinskiy</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
     <h1>Інформація про Водзінського Романа</h1>
     <h3>Студент групи ІО-04, заліковка ІО-0402</h3>
     <img src="https://i.gifer.com/origin/2f/2ff60e45bff11fcae2eff4d1dcecd44f.gif" width="30%" height="30%" alt="programmer gif">
-    <a class="back" href="index.html">На головну сторінку</a>
+    <a class="back" href="/team">На головну сторінку</a>
     </div>
 </body>
 </html>
